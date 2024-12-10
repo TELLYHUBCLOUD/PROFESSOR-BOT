@@ -6,7 +6,7 @@ from database.users_chats_db import *
 from database.ia_filterdb import  Media
 from typing import Union, Optional, AsyncGenerator
 from utils import temp, __repo__, __license__, __copyright__, __version__
-from info import API_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEB_SUPPORT, LOG_MSG
+from info import * sAPI_ID, API_HASH, BOT_TOKEN, LOG_CHANNEL, UPTIME, WEB_SUPPORT, LOG_MSG
 
 # Get logging configurations
 logging.config.fileConfig("logging.conf")
